@@ -1,0 +1,19 @@
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body,html,#root{height:100%;margin:0}
+.app{display:flex;align-items:center;justify-content:center;padding:12px}
+.login{max-width:420px;width:100%;padding:20px;border:1px solid #ddd;border-radius:8px}
+.login input{width:100%;padding:8px;margin:8px 0}
+.chat{max-width:900px;width:100%;border:1px solid #ddd;border-radius:8px;display:flex;flex-direction:column;height:80vh}
+.chat header{padding:10px;border-bottom:1px solid #eee;display:flex;justify-content:space-between}
+.messages{flex:1;overflow:auto;padding:10px;background:#fafafa}
+.message{padding:8px;margin-bottom:8px;border-radius:6px;background:white}
+.message.me{background:#e6ffea;align-self:flex-end}
+.message .meta{font-size:12px;color:#666}
+.message .body{margin-top:6px}
+footer{padding:8px;border-top:1px solid #eee;display:flex;gap:8px}
+.load-older{margin-bottom:8px}
+.typing{font-size:12px;color:#666;padding:6px}
+@media(max-width:600px){
+  .chat{height:92vh}
+  .presence{display:none}
+}
