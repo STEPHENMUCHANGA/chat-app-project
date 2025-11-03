@@ -53,3 +53,7 @@ Client expects `VITE_SERVER_URL` in `client/.env` (defaults to http://localhost:
 ## Submission tips
 - Add screenshots/GIFs into `/client/assets` and link them in README.
 - Provide deployed URLs if you host - include them in README for grading.
+
+## Application preview
+![Chat App Screenshot] (./client/src/screenshot.png)
+
